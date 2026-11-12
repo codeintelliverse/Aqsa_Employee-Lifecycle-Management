@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="employment_type" label="Employment Type" language="en" table="x_515169_employe_0_employee_lifecycle_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>employment_type</element>
+            <help/>
+            <hint/>
+            <label>Employment Type</label>
+            <language>en</language>
+            <name>x_515169_employe_0_employee_lifecycle_request</name>
+            <plural>Employment Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Syeda</sys_created_by>
+            <sys_created_on>2026-11-11 15:42:46</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Employment Type</sys_name>
+            <sys_package display_value="Employee Lifecycle Management" source="x_515169_employe_0">413a00f09324df14cc23f847dd03d655</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Lifecycle Management">413a00f09324df14cc23f847dd03d655</sys_scope>
+            <sys_update_name>sys_documentation_x_515169_employe_0_employee_lifecycle_request_employment_type_en</sys_update_name>
+            <sys_updated_by>Syeda</sys_updated_by>
+            <sys_updated_on>2026-11-11 15:42:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

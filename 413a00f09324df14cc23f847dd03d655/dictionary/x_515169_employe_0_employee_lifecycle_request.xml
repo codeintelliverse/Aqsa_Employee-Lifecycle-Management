@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="e2c5507c93a4df14cc23f847dd03d676" label="Employee Lifecycle Request" max_length="40" name="x_515169_employe_0_employee_lifecycle_request" type="collection">
+        <element choice="1" label="Employment Type" mandatory="true" max_length="400" name="employment_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Part-time" sequence="2" value="Part-time"/>
+                <element inactive_on_update="false" label="Full-time" sequence="1" value="Full-time"/>
+                <element inactive_on_update="false" label="Contractor" sequence="3" value="Contractor"/>
+            </choice>
+        </element>
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element label="Comments" max_length="1000" name="comments" type="string"/>
+        <element label="HR Coordinator" max_length="32" name="hr_coordinator" reference="sys_user" type="reference"/>
+        <element label="Exit Date" max_length="40" name="exit_date" type="glide_date_time"/>
+        <element label="Employee Name" mandatory="true" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+        <element label="Department" mandatory="true" max_length="400" name="department" reference="cmn_department" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Status" max_length="400" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="3" value="In Progress"/>
+                <element inactive_on_update="false" label="Submitted" sequence="2" value="Submitted"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="Cancelled"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="Completed"/>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="Draft"/>
+            </choice>
+        </element>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element label="Job Title" max_length="400" name="job_title" type="string"/>
+        <element label="Employee ID" mandatory="true" max_length="3000" name="employee_id" type="string"/>
+        <element choice="1" label="Request Type" mandatory="true" max_length="200" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Onboarding" sequence="1" value="Onboarding"/>
+                <element inactive_on_update="false" label="Offboarding" sequence="2" value="Offboarding"/>
+            </choice>
+        </element>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <element choice="1" label="Priority" max_length="400" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="3" value="High"/>
+                <element inactive_on_update="false" label="Moderate" sequence="2" value="Moderate"/>
+                <element inactive_on_update="false" label="Low" sequence="1" value="Low"/>
+                <element inactive_on_update="false" label="Critical" sequence="4" value="Critical"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <index name="index">
+            <element name="employee_name"/>
+        </index>
+        <index name="index2">
+            <element name="hr_coordinator"/>
+        </index>
+        <index name="index3">
+            <element name="location"/>
+        </index>
+        <index name="index4">
+            <element name="manager"/>
+        </index>
+    </element>
+</database>

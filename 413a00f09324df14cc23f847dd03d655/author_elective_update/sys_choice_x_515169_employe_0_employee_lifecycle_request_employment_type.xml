@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="employment_type" table="x_515169_employe_0_employee_lifecycle_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>employment_type</element>
+            <name>x_515169_employe_0_employee_lifecycle_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Syeda</sys_created_by>
+            <sys_created_on>2026-11-11 15:43:07</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>employment_type</sys_name>
+            <sys_package display_value="Employee Lifecycle Management" source="x_515169_employe_0">413a00f09324df14cc23f847dd03d655</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Employee Lifecycle Management">413a00f09324df14cc23f847dd03d655</sys_scope>
+            <sys_update_name>sys_choice_x_515169_employe_0_employee_lifecycle_request_employment_type</sys_update_name>
+            <sys_updated_by>Syeda</sys_updated_by>
+            <sys_updated_on>2026-11-11 15:43:07</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Full-time</label>
+            <language>en</language>
+            <name>x_515169_employe_0_employee_lifecycle_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>Syeda</sys_created_by>
+            <sys_created_on>2026-11-11 15:43:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Syeda</sys_updated_by>
+            <sys_updated_on>2026-11-11 15:43:14</sys_updated_on>
+            <value>Full-time</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Part-time</label>
+            <language>en</language>
+            <name>x_515169_employe_0_employee_lifecycle_request</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>Syeda</sys_created_by>
+            <sys_created_on>2026-11-11 15:43:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Syeda</sys_updated_by>
+            <sys_updated_on>2026-11-11 15:43:38</sys_updated_on>
+            <value>Part-time</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contractor</label>
+            <language>en</language>
+            <name>x_515169_employe_0_employee_lifecycle_request</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>Syeda</sys_created_by>
+            <sys_created_on>2026-11-11 15:43:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Syeda</sys_updated_by>
+            <sys_updated_on>2026-11-11 15:44:03</sys_updated_on>
+            <value>Contractor</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

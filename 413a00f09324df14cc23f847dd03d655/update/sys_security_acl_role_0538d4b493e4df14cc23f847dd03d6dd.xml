@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Syeda</sys_created_by>
+        <sys_created_on>2026-11-11 15:36:01</sys_created_on>
+        <sys_id>0538d4b493e4df14cc23f847dd03d6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_515169_employe_0_employee.x_515169_employe_0.employee_lifecycle_request_user</sys_name>
+        <sys_package display_value="Employee Lifecycle Management" source="x_515169_employe_0">413a00f09324df14cc23f847dd03d655</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Lifecycle Management">413a00f09324df14cc23f847dd03d655</sys_scope>
+        <sys_security_acl display_value="x_515169_employe_0_employee">3c38d4b493e4df14cc23f847dd03d6ad</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0538d4b493e4df14cc23f847dd03d6dd</sys_update_name>
+        <sys_updated_by>Syeda</sys_updated_by>
+        <sys_updated_on>2026-11-11 15:36:01</sys_updated_on>
+        <sys_user_role display_value="x_515169_employe_0.employee_lifecycle_request_user" name="x_515169_employe_0.employee_lifecycle_request_user">fd3694f09324df14cc23f847dd03d6f4</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
